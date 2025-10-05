@@ -64,6 +64,6 @@ public class ParaBankSteps {
         String balance = accountsPage.getAccountBalance();
         System.out.println("Account Balance: " + balance);
       
-        //DriverManager.driverclose();
+        DriverManager.driverclose();
     }
 }
